@@ -1,6 +1,7 @@
 # =====================================================
 # ================ www.firstplato.com =================
 # ====== ip@ng.dwi ====== Bismillahirrohmanirrohiim ===
+# =====================================================
 # Masuk ke cli VPS sebagai root
 sudo su
 # Update system
@@ -52,3 +53,10 @@ chmod +x backup.sh
 /usr/local/vesta/bin/v-backup-user admin
 # Jalankan script backup.sh untuk mengupload file backup terakhir yang telah dibuat
 ./backup.sh
+# ======================================================
+# ============== FTP dengan Filezilla ==================
+# Site manager - New Site - General
+# Pilih Protocol : FTP
+# Pilih Encryption : Use explicit FTP over TLS if available
+# Logon type : Normal
+# Transfer setting : Active - Tanpa limit number of simultaneous connections
