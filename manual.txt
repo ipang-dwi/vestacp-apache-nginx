@@ -20,7 +20,7 @@ bash vst-install.sh --nginx no --apache yes --phpfpm no --named yes --remi yes -
 # 1. Use file manager with cron
 crontab -e
 # Lalu masukkan kode berikut dan save
-0 */1 * * * /usr/bin/sed -i "/FILEMANAGER_KEY=''/d" /usr/local/vesta/conf/vesta.conf >> /usr/local/vesta/conf/vesta.conf && sudo /usr/bin/grep -q -F "FILEMANAGER_KEY='ILOVEREO'" /usr/local/vesta/conf/vesta.conf || /usr/bin/echo "FILEMANAGER_KEY='ILOVEREO'" >> /usr/local/vesta/conf/vesta.conf
+0 */1 * * * /usr/bin/sed -i "/FILEMANAGER_KEY=''/d" /usr/local/vesta/conf/vesta.conf >> /usr/local/vesta/conf/vesta.conf && sudo /usr/bin/grep -q -F "FILEMANAGER_KEY='ILOVERIO'" /usr/local/vesta/conf/vesta.conf || /usr/bin/echo "FILEMANAGER_KEY='ILOVERIO'" >> /usr/local/vesta/conf/vesta.conf
 # File manager akan bisa digunakan
 # ------------------------------------------------------
 # 2. Memasang SSL pada ip address VPS vestacp, jadi vestacp bisa diakses dari domain teman-teman langsung, contoh https://www.domainKamu.com:8083
