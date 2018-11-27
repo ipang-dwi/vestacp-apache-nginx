@@ -31,7 +31,7 @@ mv /usr/local/vesta/ssl/certificate.key /usr/local/vesta/ssl/bak.key
 # Ganti dengan sertifikat SSL dari domain teman-teman
 # Ganti host.domain.com dengan domain teman-teman
 ln -s /home/admin/conf/web/ssl.host.domain.com.key /usr/local/vesta/ssl/certificate.key
-ln -s /home/admin/conf/web/ssl.vesta.firstplato.com.crt /usr/local/vesta/ssl/certificate.crt
+ln -s /home/admin/conf/web/ssl.host.domain.com.crt /usr/local/vesta/ssl/certificate.crt
 # Restart service vestacp
 service vesta restart
 # -------------------------------------------------------
