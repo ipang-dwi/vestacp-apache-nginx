@@ -1,4 +1,7 @@
 # vestacp-apache-php5
+
+<img src="https://img.shields.io/github/license/ipang-dwi/xdesktop.svg" /> <img src="https://img.shields.io/badge/lab-firstplato.com-red.svg" />
+
 Setup VestaCP dengan Apache Web Server dan PHP 5.x - www.firstplato.com
 
 > Saya dedikasikan ini buat teman-teman yang ingin develop sendiri atau sekedar mempelajari cara develop VPS, dengan mempergunakan VestaCP sebagai panel, dengan Apache sebagai Web Server dan MySQL terbaru sebagai Database Server, dan PHP v5.x.. Terutama bagi teman-teman yang memiliki project yang masih mempergunakan AMP stack.. Saya mencoba membuatnya seringkas mungkin, sehingga dalam waktu kurang dari 30 menit, setup teman-teman akan bisa digunakan..
