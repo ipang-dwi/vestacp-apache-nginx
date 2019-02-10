@@ -14,7 +14,7 @@ curl -O http://vestacp.com/pub/vst-install.sh
 # Jalankan dengan opsi berikut
 # Ini settingan saya, teman-teman bisa memakai setting sendiri
 # Untuk domainKamu.com, email@kamu.com, password_kamu - ganti dengan domain, email dan password teman-teman
-bash vst-install.sh --nginx no --apache yes --phpfpm no --named yes --remi yes --vsftpd yes --proftpd no --iptables no --fail2ban no --quota yes --exim no --dovecot no --spamassassin no --clamav no --softaculous no --mysql yes --postgresql no --hostname domainKamu.com --email email@kamu.com --password password_kamu
+bash vst-install.sh --nginx yes --apache yes --phpfpm no --named yes --remi yes --vsftpd yes --proftpd no --iptables yes --fail2ban yes --quota yes --exim no --dovecot no --spamassassin no --clamav no --softaculous no --mysql yes --postgresql no --hostname domainKamu.com --email email@kamu.com --password password_kamu
 # Setelah terinstall silahkan akses sesuai credential yang diberikan
 # =================== Custom Mods ======================
 # 1. Use file manager with cron
